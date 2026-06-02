@@ -38,6 +38,54 @@ body {
     pointer-events: none;
 }
 
+.decor-image {
+    position: absolute;
+    border-radius: 24px;
+    filter: drop-shadow(0 24px 40px rgba(0, 0, 0, 0.18));
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+.decor-image-1 {
+    top: 8%;
+    left: 5%;
+    width: 140px;
+    height: 140px;
+    z-index: 0;
+    background: radial-gradient(circle at 30% 30%, #ffd6e8, #ff7b7b);
+    transform: rotate(-12deg);
+}
+
+.decor-image-2 {
+    top: 12%;
+    right: 6%;
+    width: 120px;
+    height: 120px;
+    z-index: 4;
+    background: conic-gradient(from 180deg, #70e1f5, #ffd6a5);
+    transform: rotate(8deg);
+}
+
+.decor-image-3 {
+    bottom: 14%;
+    left: 10%;
+    width: 160px;
+    height: 160px;
+    z-index: 1;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    transform: rotate(-8deg);
+}
+
+.decor-image-4 {
+    bottom: 10%;
+    right: 16%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    background: radial-gradient(circle at 50% 50%, #fbc2eb, #a18cd1);
+    transform: rotate(5deg);
+}
+
 .stars::before {
     content: '';
     position: absolute;
